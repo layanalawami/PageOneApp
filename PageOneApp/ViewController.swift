@@ -47,6 +47,9 @@ class ViewController: UIViewController {
         UIApplication.shared.open(URL(string:"https://www.easybib.com/")! as URL, options: [:], completionHandler: nil)
     }
     
+    @IBAction func signUp(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string:"https://forms.gle/qhVhhkTd6jDrhPbg8")! as URL, options: [:], completionHandler: nil)
+    }
     
     
     
