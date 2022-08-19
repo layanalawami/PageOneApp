@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -56,6 +57,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="telephone" translatesAutoresizingMaskIntoConstraints="NO" id="kdw-Hh-p4l">
                                 <rect key="frame" x="302" y="512" width="74" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" name="AccentColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="reading-book" translatesAutoresizingMaskIntoConstraints="NO" id="myV-hU-U8K">
                                 <rect key="frame" x="38" y="407" width="85" height="71"/>
@@ -83,7 +85,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" cyan="0.022813530639999999" magenta="0.04267690331" yellow="0.2215649036" black="0.001774830278" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="pYB-Zx-aR8"/>
                 </viewController>
@@ -102,6 +104,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1g1-dG-heK">
                                 <rect key="frame" x="38" y="58" width="76" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" cyan="0.017859993500000001" magenta="0.16853535180000001" yellow="0.60934573410000004" black="0.4699682798" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Back">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
@@ -112,7 +115,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Us8-OY-T7K"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" cyan="0.022813530639999999" magenta="0.04267690331" yellow="0.2215649036" black="0.001774830278" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="VXr-FV-ZCx"/>
                 </viewController>
@@ -131,6 +134,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jzx-Hb-fVz">
                                 <rect key="frame" x="39" y="57" width="82" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" cyan="0.017859993500000001" magenta="0.16853535180000001" yellow="0.60934573410000004" black="0.4699682798" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Back">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
@@ -148,7 +152,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5ng-Nm-Ucx"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" cyan="0.022813530639999999" magenta="0.04267690331" yellow="0.2215649036" black="0.001774830278" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="NQM-u7-bCv"/>
                 </viewController>
@@ -167,6 +171,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcH-G7-FbJ">
                                 <rect key="frame" x="44" y="64" width="86" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" cyan="0.017859993500000001" magenta="0.16853535180000001" yellow="0.60934573410000004" black="0.4699682798" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Back">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
@@ -177,7 +182,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SOg-Sb-gfV"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" cyan="0.022813530639999999" magenta="0.04267690331" yellow="0.2215649036" black="0.001774830278" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="eUk-YK-JVP"/>
                 </viewController>
@@ -187,17 +192,17 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ZVH-4B-DDo"/>
+        <segue reference="ej1-Uk-DeJ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="book" width="2124" height="1272"/>
         <image name="reading-book" width="256" height="256"/>
         <image name="telephone" width="256" height="256"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
